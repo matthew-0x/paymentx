@@ -87,6 +87,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
+          path: .
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
